@@ -572,13 +572,16 @@ textarea.form-control{
           font-size: 35px;
   }
   .form-control{
-               padding: 41px;
-               font-size: 30px;
+               padding: 55px 81px;
+               font-size: 37px;
     }
     .form-btn{
-            height: 59px;
+            height: 65px;
             padding-left: 34px;
-            font-size: 27px;
+            font-size: 29px;
+    }
+.social-icon ul li a{
+                    padding: 46px;
     }
   
   
