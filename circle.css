@@ -1064,3 +1064,11 @@
 .c100.orange.dark:hover > span {
   color: #e08833;
 }
+
+@media only screen and (max-device-width: 480px){ 
+   .c100 {
+  
+    font-size: 255px;
+  }
+
+}

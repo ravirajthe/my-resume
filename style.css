@@ -464,11 +464,11 @@ textarea.form-control{
 @media only screen and (max-device-width: 480px){
    
    .img-cnt h1{
-                   font-size: 90px;
+                   font-size: 117px;
                    padding-top: 40px;
    }
    .img-cnt h2{
-               font-size: 26px;
+               font-size: 35px;
    }
 
      
@@ -481,10 +481,46 @@ textarea.form-control{
            padding: 84px 0;
 
   }
+  .about-tag h2{
+                    font-size: 125px;
+  }
+  .about-tag h3{
+                    font-size: 60px;
+  }
+  .about-div p{
+               font-size: 27px;
+  }
+  .glyphicon {
+              font-size: 115px;
+              padding: 14px;
+  }
+  .info-tag {
+             font-size: 50px;
+  }
+  .tag-3{
+              font-size: 30px;
+  }
   .dwn{
          margin-bottom: 58px;
-         width: 36%;
-         font-size: 25px;
+         width: 44%;
+         font-size: 28px;
+         padding: 19px;
+  }
+  .primary-text{
+                    font-size: 105px;
+  }
+  .second-text{
+                 font-size: 27px;
+  }
+  .c100 {
+  
+    font-size: 255px;
+  }
+  .progress-box h3{
+                 font-size: 55px;
+  }
+  .progress-box p{
+                  font-size: 30px;
   }
   .ul-list{
            font-size: 12px;
@@ -496,4 +532,55 @@ textarea.form-control{
            margin: 29px 5px 5px;
 
   }
+  .portfolio-text h2{
+                         font-size: 100px;
+  }
+  .portfolio-text h3{
+
+                 font-size: 34px;              
+  }
+  .ul-list{
+        display: flex;
+        justify-content: center;
+  }
+  .ul-content{
+          display: flex;
+          flex-direction: column;
+  }
+  .list li{
+                padding: 7px;
+    font-size: 25px;
+    margin: 4px -25px 5px;
+  }
+  .contact-text h2 {
+                  font-size: 64px;
+
+  }
+  .contact-text h1{
+           font-size: 53px;
+  }
+  .personal-info{
+             margin-top: 250px;
+  }
+  .personal-info h3{
+                    font-size: 42px;
+  }
+  .personal-info p{
+                  font-size: 30px;
+  }
+  .msg-tag{
+          font-size: 35px;
+  }
+  .form-control{
+               padding: 41px;
+               font-size: 30px;
+    }
+    .form-btn{
+            height: 59px;
+            padding-left: 34px;
+            font-size: 27px;
+    }
+  
+  
+
 }
