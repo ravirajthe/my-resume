@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
 </head>	
 <body>
+	<div id="home"></div>
       <div class="col-md-12 bg-img">
       	   <nav class="navbar navbar-inverse myNavbar navbar-fixed-top ">
 			  <div class="container">
@@ -24,10 +25,10 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav navbar-right myNavbar-ul">
-			        <li><a href="#">Home</a></li>
-			        <li><a href="#">About</a></li>
-			        <li><a href="#">Contact</a></li> 
-			        <li><a href="#">Skills</a></li> 
+			        <li class="page-scroll"><a href="#home">Home</a></li>
+			        <li class="page-scroll"><a href="#about">About</a></li>
+			        <li class="page-scroll"><a href="#contact">Contact</a></li> 
+			        <li class="page-scroll"><a href="#skills">Skills</a></li> 
 			      </ul>
 			    </div>
 			  </div>
@@ -40,7 +41,7 @@
 
 				</div>
 		 </div>
-		 <div class="col-md-12 about-cnt">
+		 <div class="col-md-12 about-cnt" id="about">
 		 <div class="col-md-4 col-md-offset-4 text-center dp">
 		 	<img src="profile.jpg" class="img-responsive">
 		 </div>
@@ -90,7 +91,7 @@
 
       
 	
-		 <div class="col-md-12 xxxy">
+		 <div class="col-md-12 xxxy" id="skills">
 		 	<div class="container prog">
 		 	<div class="Skills-text text-center">
 		 		<h2 class="primary-text" >MY SKILLS</h2>
@@ -302,7 +303,7 @@
        		</div>
        		<div class="container">
        		<div class="row">
-       		       			<div class="col-md-4 col-xs-12">
+       		       			<div class="col-md-4 col-xs-12" id="contact">
        		       				<div class="personal-info text-center text-justify">
        		       			       <h3 > Get in touch</h3>
        		       			       <p>If you would like to find out more about how we can help you, please give us a call or drop us an email.
@@ -571,6 +572,7 @@
 
 
 	<script type="text/javascript" src="jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script src="https://use.fontawesome.com/c07491ac33.js"></script>
 	<script type="text/javascript" src="bootstrap.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
